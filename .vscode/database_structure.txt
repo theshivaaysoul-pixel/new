@@ -1,0 +1,85 @@
+FIREBASE FIRESTORE DATABASE STRUCTURE
+Generated at: 11/28/2025, 1:42:20 AM
+=========================================
+
+COLLECTION: sellers
+  Sample Document Fields:
+    - description: string (Sample: "121212")
+    - address: string (Sample: "Sunita Kitchen, etc
+")
+    - password: string (Sample: "password")
+    - createdAt: object (Sample: "{"type":"firestore/timestamp/1...")
+    - displayName: string (Sample: "")
+    - businessType: string (Sample: "seller")
+    - phone: string (Sample: "1212")
+    - storeStatus: string (Sample: "live")
+    - username: string (Sample: "service")
+    - category: string (Sample: "food")
+    - whatsapp: string (Sample: "2373947394")
+    - location: object (Sample: "{"lat":28.366933295392897,"lng...")
+    - name: string (Sample: "Sunita Devi")
+    - businessName: string (Sample: "Sunita Kitchen")
+    - sellerId: string (Sample: "SELLER_1764259793298")
+
+COLLECTION: sellers/SELLER_1764259793298/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764259793298/availability
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764263737353/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764263737353/availability
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764270476884/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764270476884/availability
+  Sample Document Fields:
+    - slots: array (Sample: "[Length: 8]")
+    - updatedAt: timestamp (Sample: "2025-11-27T19:46:41.000Z")
+
+COLLECTION: sellers/SELLER_1764273845422/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764274156322/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/{id}/services
+  (No services found in scanned sellers)
+
+COLLECTION: products
+  Sample Document Fields:
+    - image: null (Sample: "null")
+    - price: string (Sample: "12")
+    - name: string (Sample: "user")
+    - caption: string (Sample: "user")
+    - createdAt: timestamp (Sample: "2025-11-27T20:09:29.000Z")
+    - sellerId: string (Sample: "SELLER_1764274156322")
+    - variants: array (Sample: "[Length: 0]")
+    - description: string (Sample: "user")
+
+COLLECTION: reviews
+  (Empty Collection or Not Found)
+
+COLLECTION: chats
+  (Empty Collection or Not Found)
+
+COLLECTION: bookings
+  (Empty Collection or Not Found)
+
+COLLECTION: orders
+  Sample Document Fields:
+    - createdAt: timestamp (Sample: "2025-11-27T19:04:05.000Z")
+    - sellerId: string (Sample: "SELLER_1764263737353")
+    - customerId: string (Sample: "CUST_DEMO")
+    - status: string (Sample: "pending")
+    - updatedAt: timestamp (Sample: "2025-11-27T19:05:33.000Z")
+    - items: array (Sample: "[Length: 2]")
+    - totalAmount: number (Sample: "450")
+
+COLLECTION: users
+  (Empty Collection or Not Found)
+

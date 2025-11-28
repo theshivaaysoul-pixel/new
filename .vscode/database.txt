@@ -1,0 +1,26 @@
+Database Technology: Firebase Firestore
+
+Collections Used:
+1. sellers
+   - Stores user/seller profiles, authentication details (username), and business info.
+   - Fields observed: username, password (in prototype), businessName, businessType, category, contactNumber, address, description, logo, storeStatus.
+
+2. products
+   - Stores items listed by sellers.
+   - Linked to sellers via 'sellerId'.
+   - Fields observed: name, price, description, image, category, sellerId.
+
+3. orders
+   - Stores order information.
+   - Linked to sellers via 'sellerId'.
+   - Fields observed: customerName, items, total, status, date, sellerId.
+
+Required Indexes (Create in Firebase Console):
+1. Collection: `reviews`
+   - Fields: `sellerId` (Ascending), `createdAt` (Descending)
+   - Reason: Querying reviews by seller and sorting by newest first.
+
+2. Collection: `chats`
+   - Fields: `participants` (Arrays), `lastMessageTime` (Descending)
+   - Reason: Querying chats where user is a participant and sorting by newest message.
+

@@ -1,0 +1,113 @@
+FIREBASE FIRESTORE DATABASE STRUCTURE
+Generated at: 28/11/2025, 9:40:09 am
+=========================================
+
+COLLECTION: sellers
+  Sample Document Fields:
+    - address: string (Sample: "Sunita Kitchen, etc
+")
+    - sellerId: string (Sample: "SELLER_1764259793298")
+    - storeStatus: string (Sample: "live")
+    - phone: string (Sample: "1212")
+    - name: string (Sample: "Sunita Devi")
+    - location: object (Sample: "{"lng":77.54133224487305,"lat"...")
+    - category: string (Sample: "food")
+    - whatsapp: string (Sample: "2373947394")
+    - businessType: string (Sample: "seller")
+    - username: string (Sample: "service")
+    - businessName: string (Sample: "Sunita Kitchen")
+    - password: string (Sample: "password")
+    - description: string (Sample: "121212")
+    - displayName: string (Sample: "")
+    - createdAt: object (Sample: "{"type":"firestore/timestamp/1...")
+
+COLLECTION: sellers/SELLER_1764259793298/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764259793298/availability
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764263737353/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764263737353/availability
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764270476884/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764270476884/availability
+  Sample Document Fields:
+    - updatedAt: timestamp (Sample: "2025-11-27T19:46:41.000Z")
+    - slots: array (Sample: "[Length: 8]")
+
+COLLECTION: sellers/SELLER_1764273845422/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764274156322/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764277691939/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/SELLER_1764284990668/services
+  (Empty Collection or Not Found)
+
+COLLECTION: sellers/{id}/services
+  (No services found in scanned sellers)
+
+COLLECTION: products
+  Sample Document Fields:
+    - createdAt: timestamp (Sample: "2025-11-27T20:09:29.000Z")
+    - variants: array (Sample: "[Length: 0]")
+    - sellerId: string (Sample: "SELLER_1764274156322")
+    - id: string (Sample: "fagnOndV0CyIdiA4e2gc")
+    - price: string (Sample: "1234")
+    - name: string (Sample: "1234")
+    - image: null (Sample: "null")
+    - caption: string (Sample: "1234")
+    - description: string (Sample: "okay")
+    - updatedAt: timestamp (Sample: "2025-11-27T21:03:41.000Z")
+
+COLLECTION: reviews
+  Sample Document Fields:
+    - createdAt: timestamp (Sample: "2025-11-27T22:25:51.000Z")
+    - comment: string (Sample: "Very good
+")
+    - sellerId: string (Sample: "SELLER_1764277691939")
+    - customerName: string (Sample: "")
+    - rating: number (Sample: "5")
+
+COLLECTION: chats
+  Sample Document Fields:
+    - lastMessage: string (Sample: "hello")
+    - lastMessageTime: timestamp (Sample: "2025-11-27T22:55:53.000Z")
+    - participantNames: array (Sample: "[Length: 2]")
+    - sellerName: string (Sample: "Sharda")
+    - participants: array (Sample: "[Length: 2]")
+    - createdAt: timestamp (Sample: "2025-11-27T22:55:22.000Z")
+    - customerName: string (Sample: "Aditya")
+
+COLLECTION: bookings
+  (Empty Collection or Not Found)
+
+COLLECTION: orders
+  Sample Document Fields:
+    - paymentMethod: string (Sample: "cash on delivery")
+    - updatedAt: timestamp (Sample: "2025-11-27T22:24:05.000Z")
+    - customerId: string (Sample: "GUEST_USER")
+    - date: string (Sample: "2005-11-17")
+    - sellerId: string (Sample: "SELLER_1764277691939")
+    - serviceId: string (Sample: "jsnK8Ho58whuTV7Cv108")
+    - serviceName: string (Sample: "LOGO")
+    - status: string (Sample: "accepted")
+    - address: string (Sample: "Galgotias University")
+    - price: string (Sample: "100")
+    - timestamp: timestamp (Sample: "2025-11-27T21:37:35.000Z")
+    - totalAmount: number (Sample: "140")
+    - time: string (Sample: "10:30")
+    - items: array (Sample: "[Length: 1]")
+
+COLLECTION: users
+  (Empty Collection or Not Found)
+
